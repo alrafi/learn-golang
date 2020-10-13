@@ -3,10 +3,10 @@ package main
 import (
 	// "fmt"
 	"log"
-	"encoding/json"
+	// "encoding/json"
 	"net/http"
-	"math/rand"
-	"strconv"
+	// "math/rand"
+	// "strconv"
 	"github.com/gorilla/mux"
 )
 
@@ -21,6 +21,31 @@ type Book struct {
 type Author struct {
 	Firstname string `json:"firstname"`
 	Lastname 	string `json:"lastname"`
+}
+
+// Get All books
+func getBooks(w http.ResponseWriter, r *http.Request) {
+
+}
+
+// Get a book
+func getBook(w http.ResponseWriter, r *http.Request) {
+
+}
+
+// add a book
+func createBook(w http.ResponseWriter, r *http.Request) {
+
+}
+
+// update a book
+func updateBook(w http.ResponseWriter, r *http.Request) {
+
+}
+
+// delete a book
+func deleteBook(w http.ResponseWriter, r *http.Request) {
+
 }
 
 func main() {
