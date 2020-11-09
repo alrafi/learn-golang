@@ -25,3 +25,11 @@ uint == minimal uint32 (mengikuti os 32/64)
 dengan kata kunci bool
 - true
 - false
+
+# tipe data string
+jumlah karakter bisa nol sampai tak terhingga
+diawali dan diakhri dengan petik dua ("")
+
+fungsi di string
+- len(str) = menghitung jumlah karakter di string
+- str[idx] = mengambil karakter pada posisi yang ditentukan // return ascii number
