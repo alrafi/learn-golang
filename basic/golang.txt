@@ -50,3 +50,12 @@ var (
   <var_name1> = <var_val1>
   <var_name2> = <var_val2>
 )
+
+
+# konstan
+const x = val
+
+const (
+  a = <val>
+  b = <val>
+)
