@@ -33,3 +33,20 @@ diawali dan diakhri dengan petik dua ("")
 fungsi di string
 - len(str) = menghitung jumlah karakter di string
 - str[idx] = mengambil karakter pada posisi yang ditentukan // return ascii number
+
+
+# variabel
+
+var <var_name> <var_type> // deklarasi
+<var_name> = <var_val> // inisialisasi
+
+var <var_name> = <var_val> // langsung inisialisasi
+<var_name> = <var_val2>  // ganti value 
+
+<var_name> := <var_val> // inisialisasi
+<var_name> = <var_val2>  // ganti value
+
+var (
+  <var_name1> = <var_val1>
+  <var_name2> = <var_val2>
+)
